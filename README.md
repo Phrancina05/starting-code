@@ -4,29 +4,36 @@
 Design Decisions
 1. Cards
 •	Used rounded corners (border-radius) and shadows (box-shadow) for depth.
+
 •	Added hover effects with smooth transitions (transition: all 0.3s ease) to make cards interactive.
+
 •	Ensured images inside cards are responsive and maintain aspect ratio (object-fit: cover).
-2. Buttons
+
+3. Buttons
 •	Created a primary button using the main brand colour (--primary) and variants for success, warning, and info.
+
 •	Implemented outline buttons for secondary actions.
+
 •	Disabled buttons are styled with lighter colours and no pointer events for clarity.
+
 •	Buttons with icons include proper spacing (padding and gap) for readability.
-3. Chips
+
+4. Chips
 •	Chips are rounded (border-radius: 50px) to match modern UI trends.
 •	Active chips have a different background colour for clarity.
 •	Close buttons inside chips are styled for easy interaction.
-4. Navigation
+5. Navigation
 •	Horizontal navigation bar with hover effects and an active state indicator.
 •	Flexbox used to space items evenly and maintain alignment.
 •	Responsive behaviour ensures the nav bar adapts to smaller screens.
-5. Forms
+6. Forms
 •	Styled input fields with focus states to guide the user.
 •	Consistent spacing between labels and inputs.
 •	Text areas and input boxes use the same border and background styles for uniformity.
-6. Responsive Design
+7. Responsive Design
 •	Grid layout adapts to different screen sizes using media queries.
 •	Components stack vertically on small screens for better usability.
-7. Advanced CSS Variables
+8. Advanced CSS Variables
 •	Implemented a colour system with CSS variables to maintain a consistent theme.
 •	Theme switching can be implemented easily by overriding variable values.
 
